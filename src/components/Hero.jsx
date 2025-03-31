@@ -55,7 +55,7 @@ const Hero = () => {
                                 className="text-6xl lg:text-8xl font-extralight tracking-tighter transition-all duration-700 ease-out opacity-0 translate-y-8"
                             >
                                 <span className="relative inline-block">
-                                    Siddhartha
+                                    I'm Siddhartha
                                     <span className="absolute -bottom-2 left-0 w-1/3 h-1 bg-gradient-to-r from-emerald-400 to-blue-500"></span>
                                 </span>
                             </h1>

@@ -3,7 +3,7 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full-stack developer skilled in building scalable and efficient web applications. With one year of experience, I have worked with front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, and MongoDB. I enjoy solving complex problems and creating user-friendly solutions that drive business growth.`;
+export const HERO_CONTENT = `I am a passionate full-stack developer with expertise in building scalable web applications using React, Node.js, Express.js, MySQL, and MongoDB. With a year of hands-on experience, I craft responsive UIs, develop robust APIs, and optimize performance to create seamless user experiences. I value clean, maintainable code, collaboration, problem-solving, and continuous learning. Driven by the challenge of solving real-world problems, I seek opportunities to contribute my skills to innovative projects, enhance user experiences, and grow as a developer in a dynamic environment.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full-stack developer with a strong foundation in web development. Currently pursuing my degree in B.TECH at Kiit University, I have gained hands-on experience working with technologies like React, Next.js, Node.js, MySQL, and MongoDB. Over the past year, I have built and contributed to  projects that enhance my problem-solving and technical skills.
 
