@@ -31,9 +31,9 @@ export default function Navbar() {
         {/* Social Icons with staggered animation */}
         <div className="flex space-x-4">
           {[
-            { Icon: FaLinkedin, href: "https://linkedin.com", hoverColor: "hover:text-blue-500", delay: 100 },
-            { Icon: FaGithub, href: "https://github.com", hoverColor: "hover:text-gray-400", delay: 200 },
-            { Icon: FaInstagram, href: "https://instagram.com", hoverColor: "hover:text-pink-500", delay: 300 },
+            { Icon: FaLinkedin, href: "https://www.linkedin.com/in/siddhartha-gupta-570014321/", hoverColor: "hover:text-blue-500", delay: 100 },
+            { Icon: FaGithub, href: "https://github.com/siddhartha2228065", hoverColor: "hover:text-gray-400", delay: 200 },
+            { Icon: FaInstagram, href: "https://www.instagram.com/sidd_7770/?utm_source=qr&igsh=MTRtOG5xZ2Z6b3Boeg%3D%3D#", hoverColor: "hover:text-pink-500", delay: 300 },
             { Icon: FaTwitter, href: "https://twitter.com", hoverColor: "hover:text-blue-400", delay: 400 },
             { Icon: FaFileAlt, href: "https://drive.google.com/file/d/1csVfy3BuW_9R559GfSvk9jOVAVFMkHjN/view?usp=drive_link", hoverColor: "hover:text-green-400", delay: 500 }
           ].map(({ Icon, href, hoverColor, delay }, index) => (
@@ -55,20 +55,3 @@ export default function Navbar() {
     </nav>
   );
 }
-
-// You'll need to add this to your tailwind.config.js
-// module.exports = {
-//   theme: {
-//     extend: {
-//       keyframes: {
-//         shine: {
-//           '0%': { transform: 'translateX(-100%)' },
-//           '100%': { transform: 'translateX(100%)' }
-//         }
-//       },
-//       animation: {
-//         shine: 'shine 2s infinite'
-//       }
-//     }
-//   }
-// }

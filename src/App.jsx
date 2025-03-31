@@ -5,6 +5,7 @@ import Technologies from "./components/Technologies";
 import Experience from "./components/Experience";
 import Project from "./components/Project";
 import Contact from "./components/contact";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -16,10 +17,18 @@ const App = () => {
       </div>
 
       <div className="container mx-auto px-8">
+        <div>
         <Navbar />
+        </div>
+        <div id="hero">
         <Hero />
+        </div>
+        <div id="about">
         <About />
+        </div>
+        <div id="tech">
         <Technologies />
+        </div>
         <Experience />
         <div id="projects">
           <Project id="projects"/>
@@ -27,6 +36,7 @@ const App = () => {
         <div id="contact">
           <Contact />
         </div>
+        <Footer/>
       </div>
 
 
